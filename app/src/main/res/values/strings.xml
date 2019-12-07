@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DBMobile</string>
+    <string name="title_activity_settings_set_server">Set DocBox Server</string>
+    <string name="title_activity_settings_set_wifi">SettingsSetWifi</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_favorite"
+
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings_wifi"
+        android:title="Update Wifi Networks"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings_server"
+        android:title="Select DocBox Server"
+        app:showAsAction="never"/>
+
+</menu>
