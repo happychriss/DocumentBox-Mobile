@@ -194,7 +194,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val statusMessage = findViewById<TextView>(R.id.statusView)
-        statusMessage.text = "Scans to upload: " + Integer.toString(getUploadFiles().size)
+        statusMessage.text = "Scans to upload: " + getUploadFiles().size.toString()
 
     }
 

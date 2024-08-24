@@ -9,7 +9,7 @@ import android.widget.Button
 import android.widget.CheckedTextView
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_settings_set_wifi.*
+
 
 //*******************************************************************************************
 // Lists the allowed WIFI networks and provide button to remove selected networks
@@ -19,6 +19,7 @@ class SettingsSetWifi : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings_set_wifi)
+        val toolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
